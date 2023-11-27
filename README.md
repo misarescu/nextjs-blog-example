@@ -26,7 +26,7 @@ In this example _first-post.mdx_ and _second-post.mdx_ will be mapped to **posts
 Inside the _mdx-components.tsx_ file is defined the mapping from mdx to html. For this project no custom components are defined.\
 If custom components are required they can be defined there like this:
 
-```
+```ts
 import type { MDXComponents } from 'mdx/types'
 import Image from 'next/image'
 
